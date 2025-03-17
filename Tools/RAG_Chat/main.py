@@ -5,6 +5,7 @@ from src.indexing import EmbeddingProcessor
 from src.shared.logging_utils import get_logger
 from typing import Dict, Any
 from langchain_core.messages import HumanMessage
+from src.agent.main import entrypoint
 
 
 logger = get_logger(__name__)
